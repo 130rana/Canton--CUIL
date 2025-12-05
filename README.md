@@ -79,11 +79,36 @@ CUIL is optional, modular, and designed to “disappear” behind the apps.
 
 ---
 
-## How to Run (Prototype)  
-If a prototype exists:
+## How to Run (Prototype / Conceptual Demo)  
 
-```bash
-git clone https://github.com/USERNAME/Canton--CUIL
-cd Canton--CUIL
-npm install
-npm start
+Since this project is conceptually designed, you can explore the functionality via mockups and diagrams:
+
+1. Open the Figma Prototype: see user flows, interaction scenarios, and screen layouts.  
+2. Follow a typical sequence: borrow → swap → re-stake → observe changes in state and position.  
+3. Examine UIS schema examples and CASM session flows.  
+4. Review diagrams to understand end-to-end coordination between Canton apps.
+
+This section demonstrates that even without executable code, the concept and UX are fully testable.
+
+---
+
+## Testing / Demo Instructions  
+
+For reviewers to evaluate CUIL conceptually:
+
+1. Examine user journeys in Figma: switching between apps, maintaining state.  
+2. Check flow consistency: does the borrow → swap → stake path make sense?  
+3. Inspect CASM examples: are balances, positions, and pending actions tracked logically?  
+4. Review UIS schema examples: can apps “talk” to each other conceptually?  
+5. Evaluate developer plugin mockups: would optional modules integrate smoothly?
+
+---
+
+## Figma Prototype
+🔗 [View Prototype](https://www.figma.com/design/PcjXoojmW3phVWnSxN1RK5/Untitled?node-id=9-40)
+
+---
+
+## Notes  
+CUIL focuses on the invisible UX layer—where every action, state transition, and protocol interaction becomes intuitive.  
+It makes Canton feel connected: powerful backend + seamless frontend experience.
